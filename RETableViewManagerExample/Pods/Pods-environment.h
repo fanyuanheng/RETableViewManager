@@ -6,6 +6,12 @@
 // project.
 
 
+// JVFloatLabeledTextField
+#define COCOAPODS_POD_AVAILABLE_JVFloatLabeledTextField
+#define COCOAPODS_VERSION_MAJOR_JVFloatLabeledTextField 0
+#define COCOAPODS_VERSION_MINOR_JVFloatLabeledTextField 0
+#define COCOAPODS_VERSION_PATCH_JVFloatLabeledTextField 6
+
 // REFormattedNumberField
 #define COCOAPODS_POD_AVAILABLE_REFormattedNumberField
 #define COCOAPODS_VERSION_MAJOR_REFormattedNumberField 1

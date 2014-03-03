@@ -1,13 +1,16 @@
 PODS:
+  - JVFloatLabeledTextField (0.0.6)
   - REFormattedNumberField (1.1.1)
   - REValidation (0.1.4)
 
 DEPENDENCIES:
+  - JVFloatLabeledTextField
   - REFormattedNumberField
   - REValidation
 
 SPEC CHECKSUMS:
+  JVFloatLabeledTextField: 5f9a3648e0d215626e3cd7319788dc96354940b4
   REFormattedNumberField: 53db6b5097b02f608999b7c95ec8ccda95be93be
   REValidation: 02160035110a63af1bf6ad1b8791837b3fa13584
 
-COCOAPODS: 0.26.1
+COCOAPODS: 0.27.1
