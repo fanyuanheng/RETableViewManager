@@ -25,8 +25,9 @@
 
 #import <UIKit/UIKit.h>
 #import "NSString+RENumberFormat.h"
+#import "JVFloatLabeledTextField.h"
 
-@interface REFormattedNumberField : UITextField
+@interface REFormattedNumberField : JVFloatLabeledTextField
 
 @property (copy, readwrite, nonatomic) NSString *format;
 @property (copy, readonly, nonatomic) NSString *unformattedText;

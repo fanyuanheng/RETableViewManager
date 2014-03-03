@@ -28,7 +28,7 @@
 
 @interface RETableViewTextCell ()
 
-@property (strong, readwrite, nonatomic) UITextField *textField;
+@property (strong, readwrite, nonatomic) JVFloatLabeledTextField *textField;
 
 @end
 
@@ -47,7 +47,7 @@
     [super cellDidLoad];
     self.textLabel.backgroundColor = [UIColor clearColor];
     
-    self.textField = [[UITextField alloc] initWithFrame:CGRectNull];
+    self.textField = [[JVFloatLabeledTextField alloc] initWithFrame:CGRectNull];
     self.textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     self.textField.inputAccessoryView = self.actionBar;
     self.textField.autoresizingMask = UIViewAutoresizingFlexibleWidth;

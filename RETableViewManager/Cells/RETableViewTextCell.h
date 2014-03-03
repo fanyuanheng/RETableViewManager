@@ -25,10 +25,11 @@
 
 #import "RETableViewCell.h"
 #import "RETextItem.h"
+#import "JVFloatLabeledTextField.h"
 
 @interface RETableViewTextCell : RETableViewCell <UITextFieldDelegate>
 
 @property (strong, readwrite, nonatomic) RETextItem *item;
-@property (strong, readonly, nonatomic) UITextField *textField;
+@property (strong, readonly, nonatomic) JVFloatLabeledTextField *textField;
 
 @end
